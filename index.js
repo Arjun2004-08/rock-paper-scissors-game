@@ -34,15 +34,15 @@ const generateComptChoice=()=>{
     const option=["rock","paper","scissors"];
     const randIdx=Math.floor( Math.random()*3);
     if(option[randIdx]=="rock"){
-        compimg.innerHTML="<img class='chooseimg' src='img/rock.jpg'>";
+        compimg.innerHTML="<img class='chooseimg' src='rock.jpg'>";
         compchoice.classList.remove("hide");
     }
     else if(option[randIdx]=="paper"){
-        compimg.innerHTML="<img class='chooseimg' src='img/paper.jpg'>";
+        compimg.innerHTML="<img class='chooseimg' src='paper.jpg'>";
         compchoice.classList.remove("hide");
     }
     else{
-        compimg.innerHTML="<img class='chooseimg' src='img/scissor.jpg'>";
+        compimg.innerHTML="<img class='chooseimg' src='scissor.jpg'>";
         compchoice.classList.remove("hide");
     }
     return option[randIdx];
