@@ -74,15 +74,15 @@ choices.forEach((choice)=>{
     choice.addEventListener(("click"),()=>{
         const userChoice =choice.getAttribute("id");
         if(userChoice=="rock"){
-            userimg.innerHTML="<img class='chooseimg' src='img/rock.jpg'>";
+            userimg.innerHTML="<img class='chooseimg' src='rock.jpg'>";
             userchoice.classList.remove("hide");
         }
         else if(userChoice=="paper"){
-            userimg.innerHTML="<img class='chooseimg' src='img/paper.jpg'>";
+            userimg.innerHTML="<img class='chooseimg' src='paper.jpg'>";
             userchoice.classList.remove("hide");
         }
         else{
-            userimg.innerHTML="<img class='chooseimg' src='img/scissor.jpg'>";
+            userimg.innerHTML="<img class='chooseimg' src='scissor.jpg'>";
             userchoice.classList.remove("hide");
         }
         playGame(userChoice);
