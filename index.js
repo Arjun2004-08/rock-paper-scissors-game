@@ -61,7 +61,7 @@ const draw=()=>{
             userwin=cmptchoice=="paper"?false:true;
         }
         else if(userChoice=="paper"){
-            userwin=cmptchoice=="scissor"?false:true;
+            userwin=cmptchoice=="scissors"?false:true;
         }
         else{
             userwin=cmptchoice=="rock"?false:true;
