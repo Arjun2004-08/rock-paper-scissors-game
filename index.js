@@ -17,14 +17,12 @@ const showWinner=(userwin,userChoice,cmptchoice)=>{
     if(userwin){
         userScore++;
         usescr.innerText=userScore;
-        console.log("Yoou win");
         msg.innerText=`You Win!Your ${userChoice} beats ${cmptchoice}`;
         msg.style.backgroundColor="#3D8D7A";
     }
     else{
         compScore++;
         cmpscr.innerText=compScore;
-        console.log("Compuer Win")
         msg.innerText=`You Loose! ${cmptchoice} beats your ${userChoice}`;
         msg.style.backgroundColor="#E50046";
     }
@@ -49,11 +47,8 @@ const generateComptChoice=()=>{
 }
 
 const playGame=(userChoice)=>{
-    console.log("User clicked",userChoice);
     const cmptchoice=generateComptChoice();
-    console.log("Computer clicked",cmptchoice);
 const draw=()=>{
-    console.log("Draw")
     msg.innerText="Draw!";
     msg.style.backgroundColor="#F6DC43";
 }
