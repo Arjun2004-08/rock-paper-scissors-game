@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+}
+.h1{
+    background-color: rgb(0, 100, 25);
+    color:beige;
+    font-size: 5vmin;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    text-shadow: 1px 1px 2px black;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 2px;
+}
+.choice{
+    height: 25vmin;
+    width: 25vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.choice:hover{
+    background-color: darkolivegreen;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.img{
+    height: 23vmin;
+    width: 23vmin;
+    border-radius: 50%;
+}
+.chooseimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.point-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 5vmin;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+#user-scr,#comp-scr{
+    font-size: larger;
+}
+.rst-scr{
+    height: 30px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkolivegreen;
+    color: beige;
+    border-radius: 20px;
+}
+.msg-container{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.selected{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.user-choice{
+    width: 100px;
+    height: 150px;
+}
+.comp-choice{
+    width: 100px;
+    height: 150px;
+}
+.user-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+.comp-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+.hide{
+    display: none;
+}
+#msg{
+    font-size: 20px;
+    border-radius: 9px;
+    height: 30px;
+    padding: 10px;
+    color: rgb(45, 26, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

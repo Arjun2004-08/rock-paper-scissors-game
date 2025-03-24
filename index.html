@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <main>
+        <pre class="h1">Rock Paper Scissors</pre>
+        <div class="selected">
+            <div class="user-choice hide">
+                <p style="font-size: 20px;">You</p>
+                <div class="user-img"></div>
+            </div>
+            <div class="comp-choice hide">
+                <p style="font-size: 20px;">Computer</p>
+                <div class="comp-img"></div>
+            </div>
+        </div>
+        <div class="msg-container">
+            <p id="msg">Play your Move</p>
+        </div>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img class="img" src="img\rock.jpg" alt="Rock">
+            </div>
+            <div class="choice" id="paper">
+                <img class="img" src="img\paper.jpg" alt="Paper">
+            </div>
+            <div class="choice" id="scissors">
+                <img class="img" src="img\scissor.jpg" alt="Scissor">
+            </div>
+        </div>
+        <div class="point-table">
+            <div class="score">
+                <p id="user-scr">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="comp-scr">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+        <button class="rst-scr">Reset Score</button>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
